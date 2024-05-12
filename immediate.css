@@ -1,6 +1,30 @@
-#navi{
+nav div{
     justify-content:space-around;
+    display:flex;
+    align-content:center;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
 }
 nav div a{
     color:black;
+    padding: 15px;
+    text-decoration:none;
 }
+footer{
+    margin-top: auto;
+}
+.navbar fixed-bottom bg-body-tertiary{
+    position: fixed;
+    bottom: 0px;
+}
+/* header{
+
+}
+main{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} */
