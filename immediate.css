@@ -28,3 +28,26 @@ main{
     align-items: center;
     align-content: center;
 } */
+/* Set a fixed height for the carousel */
+#carouselExampleCaptions {
+    height: 600px; /* Adjust the height as needed */
+    justify-content: center;
+}
+
+/* Ensure images maintain aspect ratio */
+.carousel-item img {
+    max-height: 600px; /* Set the maximum height to fit the carousel */
+    max-width: 600px; /* Ensure the image width adjusts to maintain aspect ratio */
+    width:400px;
+    height:600px;
+    align-self: center;
+}
+.carousel-caption d-none d-md-block h5{
+    color: black;
+}
+.carousel-caption d-none d-md-block p{
+    color: black;
+}
+.bio{
+    padding: 100px;
+}
